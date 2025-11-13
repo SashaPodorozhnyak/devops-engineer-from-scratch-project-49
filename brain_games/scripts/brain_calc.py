@@ -1,5 +1,5 @@
 from brain_games.games.cli import welcome_user
-from brain_games.games.calc import calc, game_calc
+from brain_games.games.calc import game_calc
 from brain_games.games.check_answer import check_answer
 
 
