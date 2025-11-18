@@ -15,6 +15,6 @@ def generate_question():
     index_answer = random.randint(0, size)
     question = generate_progression(start, size, step)
     correct_answer = question[index_answer]
-    question[index_answer] = '..'
-    question = ' '.join(question)
+    question[index_answer] = ".."
+    question = " ".join(question)
     return question, correct_answer

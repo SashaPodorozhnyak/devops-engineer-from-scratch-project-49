@@ -3,7 +3,7 @@ from brain_games.games.engine import play_game
 
 
 def main():
-    descrip = 'Find the greatest common divisor of given numbers.'
+    descrip = "Find the greatest common divisor of given numbers."
     play_game(descrip, gcd)
 
 
