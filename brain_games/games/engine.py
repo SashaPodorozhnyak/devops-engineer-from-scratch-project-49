@@ -1,10 +1,11 @@
 from brain_games.games.cli import welcome_user
 
 
-def play_game(descript, module_with_game):
+def play_game(DESCRIPT, module_with_game):
     name = welcome_user()
-    print(descript)
-    for _ in range(3):
+    print(DESCRIPT)
+    RAUNDS = 3
+    for _ in range(RAUNDS):
         question, correct_answer = module_with_game.generate_question()
         print(f"Question: {question}")
         user_answer = input("Your answer: ")

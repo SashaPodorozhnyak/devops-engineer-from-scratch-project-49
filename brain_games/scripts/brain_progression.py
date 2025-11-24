@@ -3,8 +3,8 @@ from brain_games.games.engine import play_game
 
 
 def main():
-    descrip = "What number is missing in the progression?"
-    play_game(descrip, progression)
+    DESCRIPT = "What number is missing in the progression?"
+    play_game(DESCRIPT, progression)
 
 
 if __name__ == "__main__":

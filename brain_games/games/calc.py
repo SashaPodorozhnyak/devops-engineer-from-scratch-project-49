@@ -1,12 +1,14 @@
 import random
 
-operators = ["+", "-", "*"]
+OPERATORS = ["+", "-", "*"]
+START_RANDOM = 1
+END_RANDOM = 100
 
 
 def generate_question():
-    number1 = random.randint(1, 100)
-    number2 = random.randint(1, 100)
-    operator = random.choice(operators)
+    number1 = random.randint(START_RANDOM, END_RANDOM)
+    number2 = random.randint(START_RANDOM, END_RANDOM)
+    operator = random.choice(OPERATORS)
 
     def remove_operator(operator):
         global operators  # работаем с переменной из внешней области
