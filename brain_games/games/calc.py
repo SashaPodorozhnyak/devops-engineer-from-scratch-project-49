@@ -11,9 +11,9 @@ def generate_question():
     operator = random.choice(OPERATORS)
 
     def remove_operator(operator):
-        global operators  # работаем с переменной из внешней области
-        operators.remove(operator)
-        return operators
+        global OPERATORS  # работаем с переменной из внешней области
+        OPERATORS.remove(operator)
+        return OPERATORS
 
     question = str(number1) + " " + str(operator) + " " + str(number2)
     correct_answer = calc(number1, number2, operator)
