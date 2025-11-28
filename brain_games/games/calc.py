@@ -1,6 +1,6 @@
 import random
 
-OPERATORS = ["+", "-", "*"]
+OPERATORS = ("+", "-", "*")
 START_RANDOM = 1
 END_RANDOM = 100
 
@@ -12,7 +12,8 @@ def generate_question():
 
     def remove_operator(operator):
         global OPERATORS  # работаем с переменной из внешней области
-        OPERATORS.remove(operator)
+        #list(OPERATORS).remove(operator)
+        OPERATORS = tuple(item for item in OPERATORS if item != operator)
         return OPERATORS
 
     question = str(number1) + " " + str(operator) + " " + str(number2)
