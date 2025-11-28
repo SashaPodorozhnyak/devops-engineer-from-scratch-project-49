@@ -1,5 +1,4 @@
 import random
-
 from brain_games.games.start_end import END_RANDOM, START_RANDOM
 
 
