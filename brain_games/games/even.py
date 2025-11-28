@@ -1,7 +1,6 @@
 import random
 
-START_RANDOM = 1
-END_RANDOM = 100
+from brain_games.games.start_end import END_RANDOM, START_RANDOM
 
 
 def is_even(number):

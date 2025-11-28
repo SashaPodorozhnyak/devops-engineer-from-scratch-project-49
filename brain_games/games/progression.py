@@ -1,7 +1,7 @@
 import random
 
-START_RANDOM = 1
-END_RANDOM = 20
+from brain_games.games.start_end import END_RANDOM, START_RANDOM
+
 START_SIZE_RANDOM = 5
 
 

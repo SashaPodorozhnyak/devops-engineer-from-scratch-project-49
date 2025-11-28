@@ -1,8 +1,8 @@
 import random
 
+from brain_games.games.start_end import END_RANDOM, START_RANDOM
+
 OPERATORS = ("+", "-", "*")
-START_RANDOM = 1
-END_RANDOM = 100
 
 
 def generate_question():
@@ -12,7 +12,6 @@ def generate_question():
 
     def remove_operator(operator):
         global OPERATORS  # работаем с переменной из внешней области
-        #list(OPERATORS).remove(operator)
         OPERATORS = tuple(item for item in OPERATORS if item != operator)
         return OPERATORS
 
