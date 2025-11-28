@@ -14,9 +14,11 @@
 
 This project was built using these tools:
 
-| Tool                                              Description                                             |
-|---------------------------------------------|---------------------------------------------------------|
+| Tool  |  Description                                          
+|-------|---------------------------------------------------------|
+
 | [uv](https://docs.astral.sh/uv/)            | "An extremely fast Python package and project manager, written in Rust" |
+
 | [ruff](https://docs.astral.sh/ruff/)        | "An extremely fast Python linter and code formatter, written in Rust" |
 
 ### setup
